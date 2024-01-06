@@ -57,7 +57,7 @@
     height: 600px;
    
     display: flex;
-    margin: 5% 10%;
+    margin: 2% 10%;
     
     /* background-color: #F15B22; */
     justify-content: space-between;
@@ -120,4 +120,82 @@
     content: "\1F5F8";
     color:rgb(99, 192, 99);
     justify-content: space-between;
+}
+.s{
+    
+    width: 80%;
+    height: 300px;
+    margin: 2% 10%;
+}
+.second-section{
+    display: flex;
+    justify-content: space-between;
+}
+.second-title{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+.second-sec-pic{
+    width: 200px;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.second-sec-text{
+    width: 200px;
+    height: 10vh;
+}
+.second-sec-text>h3{
+    padding-bottom: 5px;
+    text-align: center;
+    /* align-items: center;
+    justify-content: center; */
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+}
+.second-sec-text p{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+}
+.third-sec{
+    width: 80%;
+    height: 40vh;
+    background: linear-gradient(50deg,rgba(167, 86, 11, 0.7),rgba(236, 216, 165, 0.5)), url('images/watch.png');
+   background-size: cover;
+    margin-left: 10%;
+   background-repeat: no-repeat;
+
+}
+.details-third{
+    width: 459px;
+    height: 182px;
+    position: relative;
+    top:20%;
+    margin-left: 10%;
+    
+
+}
+.third-text{
+    width: 450px;
+    position: relative;
+    top:20%;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    color:white;
+    margin-bottom: 50px;
+    
+}
+.details-third button{
+     padding: 15px 20px;
+      color: #F15B22;
+      border-radius: 3px;
+      border: none;
+      font-size: 15px;
 }
