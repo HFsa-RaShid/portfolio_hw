@@ -12,12 +12,12 @@
 }
 
 .header-container {
-  
+
     /* height: 50%; */
     width: 40%;
     position: absolute;
-    top:40%;
-    left:50%; 
+    top: 40%;
+    left: 50%;
     /* background-color: rgb(189, 189, 240); */
 }
 
@@ -27,27 +27,97 @@
     width: 494px;
     text-align: right;
     position: relative;
-    left:45px;
+    left: 45px;
     font-family: 'Work Sans', sans-serif;
     font-size: 30px;
     /* background-color: brown; */
 }
-.header-text p{
+
+.header-text p {
     height: 78px;
     width: 494px;
     text-align: right;
     position: relative;
-    left:45px;
-    color:gray
+    left: 45px;
+    color: gray
 }
-.primary-key{
+
+.primary-key {
     background-color: #F15B22;
     border-radius: 5px;
     padding: 15px;
-    text-decoration: none;
     border: 0;
     color: white;
     float: right;
-   
+
 }
+
+.first-section {
+    width: 80%;
+    height: 600px;
+   
+    display: flex;
+    margin: 5% 10%;
     
+    /* background-color: #F15B22; */
+    justify-content: space-between;
+}
+
+.picture img{
+    width: 400px;
+    height: 500px;
+}  
+.picture{
+    
+        width: 600px;
+        height: 500px;
+        background: no-repeat;
+        background-size: cover;
+        /* box-shadow: 2px 0 12px rgba(0, 0, 0, 0.2); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        flex-direction: column;
+    
+}
+.details{
+    
+    width: 350px;
+    height: 200px;
+    background: no-repeat;
+    background-size: cover;
+    /* box-shadow: 2px 0 12px rgba(0, 0, 0, 0.2); */
+    display: flex;
+    padding: 150px;
+    /* border: 5px solid black; */
+    flex-direction: column;
+
+}
+
+.details>.details-title{
+    width: 200px;
+    height: 90px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+    /* background-color: bisque; */
+    
+}
+.details>.details-text{
+    width: 400px;
+    height: 100px;
+    font-family: 'Work Sans', sans-serif;
+    padding-bottom: 20px;
+    
+    /* background-color: rgb(219, 137, 37);
+     */
+}
+.first-section ul li{
+    list-style: none;
+}
+.first-section ul li:before{
+    content: "\1F5F8";
+    color:rgb(99, 192, 99);
+    justify-content: space-between;
+}
